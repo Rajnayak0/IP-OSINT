@@ -15,13 +15,13 @@ A simple command-line tool to gather Open Source Intelligence (OSINT) on a given
     ```
 3.  **Run the script:**
     ```bash
-    python main.py <IP_ADDRESS>
+    python ip.py <IP_ADDRESS>
     ```
     Replace `<IP_ADDRESS>` with the IP you want to investigate (e.g., `python main.py 8.8.8.8`). The tool will display a colorful banner and a categorized list of links with descriptions and potential results in your terminal.
 
 4.  **Automatically open links in your browser (optional):**
     ```bash
-    python main.py <IP_ADDRESS> -o
+    python ip.py <IP_ADDRESS> -o
     ```
     This command will open each link in a new tab of your default web browser.
 
