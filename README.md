@@ -6,7 +6,7 @@ A simple command-line tool to gather Open Source Intelligence (OSINT) on a given
 
 1.  **Clone the repository:**
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/Rajnayak0/IP-OSINT.git
     cd IP-OSINT
     ```
 2.  **Install dependencies:**
