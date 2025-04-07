@@ -2,6 +2,11 @@
 
 A simple command-line tool to gather Open Source Intelligence (OSINT) on a given IP address by providing links and descriptions of various online analysis tools, with interactive category selection and browser opening options.
 
+![image](https://github.com/user-attachments/assets/02897520-1f35-42a6-a880-83ce7afb6f7c)
+
+
+
+
 ## Usage
 
 1.  **Clone the repository:**
