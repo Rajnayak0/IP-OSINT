@@ -60,11 +60,11 @@ For each tool, a brief description is provided, along with a "Potential Result" 
 If you'd like to contribute to this project, you can:
 
 * Suggest new tools or categories to include..
-* Improve the descriptions of existing tools.
-* Report any broken links or issues.
-* Contribute code enhancements (e.g., more advanced analysis features - with careful consideration of website terms of service).
+* Improve the descriptions of existing tools..
+* Report any broken links or issues..
+* Contribute code enhancements (e.g., more advanced analysis features - with careful consideration of website terms of service)..
 
-Please feel free to open issues or submit pull requests on the GitHub repository.
+Please feel free to open issues or submit pull requests on the GitHub repository..
 
 ## Author
 
