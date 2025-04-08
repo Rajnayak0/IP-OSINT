@@ -11,7 +11,7 @@ You can provide the IP address and choose categories either as command-line argu
 
 **1. Clone the repository:**
 ```bash
-git clone [https://github.com/Rajnayak0/IP-OSINT.git](https://github.com/Rajnayak0/IP-OSINT.git)
+git clone https://github.com/Rajnayak0/IP-OSINT.git
 cd IP-OSINT
 ```
 
