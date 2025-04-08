@@ -78,6 +78,8 @@ python ip.py 1.1.1.1 -g -r -o
 ```
 This command will analyze the IP `1.1.1.1`, display tools from the Geolocation and Reputation/Blacklists categories, and open the links in your browser.
 
+![image](https://github.com/user-attachments/assets/befd090b-4471-463b-84c9-506d7a3f5790)
+
 
 
 ## Supported Operating Systems
