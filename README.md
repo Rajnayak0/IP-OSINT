@@ -20,7 +20,38 @@ cd IP-OSINT
 pip install pyfiglet termcolor
 ```
 
-**3. Run the script:**
+**3: Enter IP and select categories interactively:**
+```bash
+python ip.py
+```
+The script will prompt you for the IP address and then present a menu of categories.
+
+**4. Interactive Category Selection:**
+
+If you run the script without category flags, you will see an interactive menu:
+
+* `[0] All Categories`
+* `[1] Geolocation`
+* `[2] Host / Port Discovery`
+* `[3] IPv4 Specific`
+* `[4] Reputation / Blacklists`
+* `[5] Neighbor Domains (Reverse IP Lookup)`
+* `[b] Go Back`
+* `[q] Quit`
+
+Enter the number corresponding to your desired category.
+
+**5. Open Links in Browser (Interactive Mode):**
+
+After selecting a category in the interactive mode, you will be asked if you want to open the links in your browser.
+
+**6. Confirmation and Navigation (Interactive Mode):**
+
+The interactive mode allows you to explore multiple categories before quitting.
+
+**method 2**
+
+**1. Run the script:**
 
 **Option 1: Provide IP and categories via flags:**
 ```bash
@@ -28,13 +59,8 @@ python ip.py <IP_ADDRESS> [flags]
 ```
 Replace `<IP_ADDRESS>` with the IP you want to investigate (e.g., `python ip.py 8.8.8.8`). Use the category flags below to select specific tools.
 
-**Option 2: Enter IP and select categories interactively:**
-```bash
-python ip.py
-```
-The script will prompt you for the IP address and then present a menu of categories.
 
-**4. Category Selection Flags:**
+**2. Category Selection Flags:**
 
 You can use these flags to select specific categories directly from the command line:
 
@@ -52,28 +78,7 @@ python ip.py 1.1.1.1 -g -r -o
 ```
 This command will analyze the IP `1.1.1.1`, display tools from the Geolocation and Reputation/Blacklists categories, and open the links in your browser.
 
-**5. Interactive Category Selection:**
 
-If you run the script without category flags, you will see an interactive menu:
-
-* `[0] All Categories`
-* `[1] Geolocation`
-* `[2] Host / Port Discovery`
-* `[3] IPv4 Specific`
-* `[4] Reputation / Blacklists`
-* `[5] Neighbor Domains (Reverse IP Lookup)`
-* `[b] Go Back`
-* `[q] Quit`
-
-Enter the number corresponding to your desired category.
-
-**6. Open Links in Browser (Interactive Mode):**
-
-After selecting a category in the interactive mode, you will be asked if you want to open the links in your browser.
-
-**7. Confirmation and Navigation (Interactive Mode):**
-
-The interactive mode allows you to explore multiple categories before quitting.
 
 ## Supported Operating Systems
 
