@@ -49,7 +49,7 @@ After selecting a category in the interactive mode, you will be asked if you wan
 
 The interactive mode allows you to explore multiple categories before quitting.
 
-## Method 2
+## With flags
 
 **1. Run the script:**
 
